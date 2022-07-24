@@ -1,0 +1,29 @@
+body {
+  background-image: linear-gradient(-900deg, white, #dfffff);
+}
+
+.card-img-top {
+  max-width: 500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+
+.rounded-circle {
+  border-radius: 60px !important;
+}
+
+.rounded-circle1 {
+  border-radius: 200px !important;
+}
+
+.btn-warning {
+  color: #000;
+  background-color: #86d9cb;
+  border-color: #47c9af;
+}
+
+.btn-warning:hover {
+  background-color: #88f159;
+  border-color: #47c9af;
+}
