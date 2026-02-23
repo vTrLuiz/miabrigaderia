@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply font-sans text-cocoa-800 bg-cream;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+  }
+  ::selection {
+    @apply bg-rose text-white;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply mx-auto max-w-6xl px-5;
+  }
+  .blob-shape {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
